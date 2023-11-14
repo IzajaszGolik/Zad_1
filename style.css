@@ -1,3 +1,37 @@
-.first_section {
-    background-color: aquamarine;
+.top_main {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(118, 114, 114);
+
+}
+
+img {
+    width: 271px;
+    height: 235px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.one_article {
+    width: 230px;
+    margin: 40px 10px 0px 10px;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    color: black;
+}
+
+.first {
+    padding-left: 17px
+}
+
+.one_section {
+    align-items: flex-start;
+    background-color: white;
+    height: 100%;
+    margin-left: 20px;
+    width: 270px;
+    margin-bottom: 20%;
+    margin-top: 7%;
+    border-radius: 20px 20px 20px 20px;
 }

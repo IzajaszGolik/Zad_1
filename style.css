@@ -1,20 +1,75 @@
+.the_best {
+    background: linear-gradient(to right, rgb(99, 99, 216), violet)
+}
+
 .top_main {
     display: flex;
     justify-content: center;
-    background-color: rgb(118, 114, 114);
+    background: linear-gradient(to right, rgb(99, 99, 216), violet)
+}
+
+.top_txt1 {
+    padding: 0px 0px 0px 8px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 10px 15px 0px 15px;
+    width: 30%;
+    background-color: rgb(106, 106, 251);
+    color: white;
 
 }
 
-img {
+.top_txt2 {
+    padding: 0px 8px 0px 8px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 10px 15px 0px 15px;
+    width: 12%;
+    background-color: rgb(197, 191, 9);
+    color: white;
+}
+
+.top_txt3 {
+    padding: 0px 6px 0px 8px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 10px 15px 0px 15px;
+    width: 30%;
+    background-color: rgb(248, 55, 55);
+    color: white;
+}
+
+.foto_center {
     width: 271px;
     height: 235px;
     margin: 0px 0px 0px 0px;
     border-radius: 20px 20px 0px 0px;
 }
 
+.foto_down1 {
+    width: 50px;
+    height: 50px;
+    padding: 0px 20px 0px 20px;
+    margin: -39px 0px 20px 0px;
+    border-radius: 50%;
+}
+
+.foto_down2 {
+    width: 50px;
+    height: 50px;
+    padding: 0px 20px 0px 20px;
+    margin: -10px 0px 20px 0px;
+    border-radius: 50%;
+}
+
+.foto_down3 {
+    width: 50px;
+    height: 50px;
+    padding: 0px 20px 0px 20px;
+    margin: -20px 0px 20px 0px;
+    border-radius: 50%;
+}
+
 .one_article {
     width: 230px;
-    margin: 40px 10px 0px 10px;
+    margin: 40px 10px 50px 10px;
     padding: 10px;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
@@ -22,16 +77,25 @@ img {
 }
 
 .first {
-    padding-left: 17px
+    padding-left: 17px;
+    margin-bottom: -37px;
+    margin-top: -40px;
 }
 
 .one_section {
     align-items: flex-start;
     background-color: white;
-    height: 100%;
-    margin-left: 20px;
+    margin-left: 30px;
     width: 270px;
     margin-bottom: 20%;
     margin-top: 7%;
     border-radius: 20px 20px 20px 20px;
+}
+
+.wm_1 {
+    padding: 0px 70px 17px 70px;
+    font-size: 70%;
+    margin: -70px 0px 0px 10px;
+    color: gray;
+    line-height: 1px;
 }
